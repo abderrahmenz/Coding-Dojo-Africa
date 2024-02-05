@@ -1,0 +1,38 @@
+body{
+    background-color: silver;
+}
+h1, p{
+    text-align: center;
+}
+img{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+.Header{
+    background-color: cyan;
+    margin: auto;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.Main{
+    background-color: lightcoral;
+    margin: auto;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.Footer{
+    background-color: white;
+    margin: auto;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
