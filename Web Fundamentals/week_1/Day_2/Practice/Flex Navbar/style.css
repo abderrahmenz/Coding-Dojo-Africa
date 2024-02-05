@@ -1,0 +1,21 @@
+.nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h1{
+    color: white;
+    display: inline-block;
+}
+.nav-links{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.btn{
+    border-style: solid;
+    color: white;
+    background-color: aqua;
+    box-shadow: inset;
+}
