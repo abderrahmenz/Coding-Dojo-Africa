@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header > a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.profile-top{
+    margin-top: 40px;
+    background-color: cyan;
+    padding: 24px;
+    height: 45px;
+}
+.profile-picture{
+    border-radius: 50%;
+    height: 120px;
+    border: solid grey 3px;
+}
+.profile-bottom{
+    width: 400px;
+    margin-top: 60px;
+    border: solid grey;
+    height: 200px;
+}
+.map-marker{
+    height: 30px;
+}
+.gear{
+    height: 30px;
+}
+.profile-bottom h1, h2, p, .gear {
+    padding-left: 20px; 
+}
+.education{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+}
+.education-bottom{
+    border: solid grey;
+}
+.education-bottom h3, p, b{
+    padding-left: 20px;
+}
+.aside{
+    flex:1;
+    margin-left: 20px;
+
+}
+.Connection-Requestes{
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.Connection-Requestes span{
+    border-radius: 50% ;
+}
+.Connection-Requestes-bottom{
+    border: solid grey;
+    height: 100px;
+}
+.accept-circle, .close-circle{
+    height: 20px;
+    float: right;
+}
+.accept-circle{
+    margin-left: 10px;
+}
+.Your-Connection{
+    background-color: black;
+    color: white;
+    margin-top:30px ;
+}
+.Your-Connection-Bottom{
+    border: solid;
+    height: 200px;
+}
