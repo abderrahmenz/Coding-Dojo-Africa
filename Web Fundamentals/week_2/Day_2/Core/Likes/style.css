@@ -1,0 +1,48 @@
+.container {
+    border:3px solid black;
+    padding: 10px ;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 90px;
+    margin-top: 35px;
+}
+
+.user {
+    font-size: 10px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.paragraph{
+    text-align: left;
+}
+.minicont{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.btn {
+    background-color: #ffd966;
+    color: black;
+    box-shadow: 4px 3px black;
+    height: 33px;
+    width: 60px;
+    font-weight: bolder;
+}
+img{
+    height: 90px;
+    width: 92px;
+    border-radius: 50%;
+}
+
+span {
+    font-size: large;
+}
+
+
+
+p {
+    font-size: large;
+}
