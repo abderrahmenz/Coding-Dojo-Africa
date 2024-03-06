@@ -1,0 +1,49 @@
+INSERT INTO dojos (first_name, last_name, age)
+VALUES('Abderrahmen', 'Zarrougui', 23),
+('Suna', 'Saga', 44),
+('Draco' 'Cookiezi', 26);
+
+
+DELETE FROM dojos 
+WHERE id = 1;
+DELETE FROM dojos 
+WHERE id = 2;
+DELETE FROM dojos 
+WHERE id = 3;
+
+
+INSERT INTO dojos (first_name, last_name, age)
+VALUES('Abderrahmen', 'Zarrougui', 23),
+('Suna', 'Saga', 44),
+('Draco' 'Cookiezi', 26);
+
+INSERT INTO ninjas (first_name, last_name, age, dojos_id)
+VALUES ('Joe ', 'Doe', 48, 4),
+('Jane ', 'Doe', 66, 4),
+('Iheb ', 'Jbali', 54, 4);
+
+INSERT INTO ninjas (first_name, last_name, age, dojos_id)
+VALUES ('Thalia ', 'Welch', 20, 5),
+('Hendrix ', 'Mejia', 21, 5),
+('Briar ', 'Pollard', 49, 5);
+
+
+INSERT INTO ninjas (first_name, last_name, age, dojos_id)
+VALUES ('Anya ', 'Sweeney', 73, 6),
+('Kaisley ', 'Silva', 17, 6),
+('Luka ', 'Weeks', 24, 6);
+
+SELECT * FROM ninjas
+WHERE dojos_id = 4;
+
+SELECT * FROM ninjas
+WHERE dojos_id = 5;
+
+SELECT * FROM ninjas
+WHERE dojos_id = 6;
+
+SELECT * FROM ninjas WHERE id = 9
+
+SELECT ninjas.dojos_id, ninjas.id, ninjas.first_name, ninjas.last_name, ninjas.age
+FROM ninjas
+WHERE ninjas.dojos_id = 6;
