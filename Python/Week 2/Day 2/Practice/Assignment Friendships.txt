@@ -1,0 +1,36 @@
+INSERT INTO users (first_name, last_name)
+VALUES('Carter', 'Bender'),
+	  ('Sawyer', 'Hunter'),
+      ('Alison', 'Cortes'),
+      ('Jagger', 'Harding'),
+      ('Wilson', 'Salas'),
+      ('Sierra', 'Flower');
+
+INSERT INTO friendships (users_id, friend_id)
+VALUES(1, 2),
+(1, 4),
+(1, 6),
+(2, 1),
+(2, 3),
+(2, 5),
+(3, 2),
+(3, 5),
+(4, 3),
+(5, 1),
+(5, 6),
+(6, 2),
+(6, 3);
+
+
+SELECT u.first_name, u.last_name, f.first_name AS friend_first_name, f.last_name AS friend_last_name 
+FROM users AS u 
+JOIN friendships ON u.id = friendships.users_id 
+JOIN users AS f ON friendships.friend_id = f.id;
+
+SELECT users_id
+FROM friendships
+WHERE friend_id = 1
+
+SELECT COUNT(*) AS num_of_friendships 
+FROM friendships;
+
